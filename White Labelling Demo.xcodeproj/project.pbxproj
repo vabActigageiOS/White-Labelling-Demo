@@ -64,6 +64,7 @@
 		22C88FD020205A460081C963 /* White Labelling Demo */ = {
 			isa = PBXGroup;
 			children = (
+				22C88FF5202099D60081C963 /* Favourites */,
 				22C88FEF202085C50081C963 /* Featured */,
 				22C88FE420205CE40081C963 /* Controllers */,
 				22C88FE320205CD90081C963 /* Appdelegate */,
@@ -86,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				22C88FD320205A460081C963 /* HomeController.swift */,
-				22C88FE920206E8B0081C963 /* FavouritesViewController.swift */,
 				22C88FEB20206EA90081C963 /* DownloadsViewController.swift */,
 				22C88FED20206EC40081C963 /* HistoryViewController.swift */,
 			);
@@ -109,6 +109,30 @@
 				22C88FF3202086FF0081C963 /* Feature2ViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		22C88FF5202099D60081C963 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				22C88FF720209A0A0081C963 /* View */,
+				22C88FF6202099F80081C963 /* Controllers */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		22C88FF6202099F80081C963 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22C88FE920206E8B0081C963 /* FavouritesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		22C88FF720209A0A0081C963 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
