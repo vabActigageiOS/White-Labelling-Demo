@@ -21,21 +21,22 @@ class FeaturedViewController: UIPageViewController, UIPageViewControllerDataSour
         pages.append(feature1)
         pages.append(feature2)
         setViewControllers([pages[initialPage]], direction: .forward, animated: true, completion: nil)
-        
+        setupPageControl()
     }
     
     func setupPageControl(){
-        pageControl.frame = CGRect()
-        pageControl.currentPage = 0
-        pageControl.currentPageIndicatorTintColor = UIColor.black
-        pageControl.pageIndicatorTintColor = UIColor.lightGray
-        pageControl.numberOfPages = self.pages.count
-        pageControl.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(pageControl)
-        pageControl.widthAnchor.constraint(equalToConstant: 100).isActive = true
-        pageControl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        pageControl.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        pageControl.heightAnchor.constraint(equalToConstant: 20).isActive = true
+        self.pageControl.frame = CGRect()
+        self.pageControl.currentPageIndicatorTintColor = UIColor.black
+        self.pageControl.pageIndicatorTintColor = UIColor.lightGray
+        self.pageControl.numberOfPages = self.pages.count
+        self.pageControl.currentPage = 0
+        self.view.addSubview(self.pageControl)
+        
+        self.pageControl.translatesAutoresizingMaskIntoConstraints = false
+        self.pageControl.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+        self.pageControl.widthAnchor.constraint(equalTo: self.view.widthAnchor, constant: -20).isActive = true
+        self.pageControl.heightAnchor.constraint(equalToConstant: 20).isActive = true
+        self.pageControl.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
