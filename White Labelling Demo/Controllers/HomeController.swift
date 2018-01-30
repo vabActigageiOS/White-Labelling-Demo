@@ -8,12 +8,21 @@
 
 import UIKit
 
-class HomeController: UIViewController {
-
+class HomeController: UITabBarController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         view.backgroundColor = .white
+        let featuredViewController = FeaturedViewController()
+        featuredViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 0)
+        let favouritesViewController = FavouritesViewController()
+        favouritesViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        let downloadsViewController = DownloadsViewController()
+        downloadsViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 2)
+        let historyViewController = HistoryViewController()
+        historyViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 3)
+        viewControllers = [featuredViewController, favouritesViewController, downloadsViewController, historyViewController ]
     }
 
 
