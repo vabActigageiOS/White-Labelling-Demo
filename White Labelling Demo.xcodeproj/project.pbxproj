@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22C88FD220205A460081C963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD120205A460081C963 /* AppDelegate.swift */; };
-		22C88FD420205A460081C963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD320205A460081C963 /* ViewController.swift */; };
-		22C88FD720205A460081C963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FD520205A460081C963 /* Main.storyboard */; };
+		22C88FD420205A460081C963 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD320205A460081C963 /* HomeController.swift */; };
 		22C88FD920205A460081C963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FD820205A460081C963 /* Assets.xcassets */; };
 		22C88FDC20205A460081C963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FDA20205A460081C963 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -17,8 +16,7 @@
 /* Begin PBXFileReference section */
 		22C88FCE20205A460081C963 /* White Labelling Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Labelling Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C88FD120205A460081C963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22C88FD320205A460081C963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22C88FD620205A460081C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22C88FD320205A460081C963 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		22C88FD820205A460081C963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C88FDB20205A460081C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C88FDD20205A460081C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,14 +52,29 @@
 		22C88FD020205A460081C963 /* White Labelling Demo */ = {
 			isa = PBXGroup;
 			children = (
-				22C88FD120205A460081C963 /* AppDelegate.swift */,
-				22C88FD320205A460081C963 /* ViewController.swift */,
-				22C88FD520205A460081C963 /* Main.storyboard */,
+				22C88FE420205CE40081C963 /* Controllers */,
+				22C88FE320205CD90081C963 /* Appdelegate */,
 				22C88FD820205A460081C963 /* Assets.xcassets */,
 				22C88FDA20205A460081C963 /* LaunchScreen.storyboard */,
 				22C88FDD20205A460081C963 /* Info.plist */,
 			);
 			path = "White Labelling Demo";
+			sourceTree = "<group>";
+		};
+		22C88FE320205CD90081C963 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				22C88FD120205A460081C963 /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		22C88FE420205CE40081C963 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22C88FD320205A460081C963 /* HomeController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +138,6 @@
 			files = (
 				22C88FDC20205A460081C963 /* LaunchScreen.storyboard in Resources */,
 				22C88FD920205A460081C963 /* Assets.xcassets in Resources */,
-				22C88FD720205A460081C963 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C88FD420205A460081C963 /* ViewController.swift in Sources */,
+				22C88FD420205A460081C963 /* HomeController.swift in Sources */,
 				22C88FD220205A460081C963 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +156,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		22C88FD520205A460081C963 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22C88FD620205A460081C963 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22C88FDA20205A460081C963 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
