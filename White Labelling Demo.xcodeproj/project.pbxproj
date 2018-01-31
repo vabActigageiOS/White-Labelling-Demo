@@ -68,9 +68,11 @@
 		22C88FD020205A460081C963 /* White Labelling Demo */ = {
 			isa = PBXGroup;
 			children = (
+				22FCF1E720218C670056D84A /* Main */,
+				22FCF1E520218C440056D84A /* History */,
+				22FCF1E320218BE40056D84A /* Downloads */,
 				22C88FF5202099D60081C963 /* Favourites */,
 				22C88FEF202085C50081C963 /* Featured */,
-				22C88FE420205CE40081C963 /* Controllers */,
 				22C88FE320205CD90081C963 /* Appdelegate */,
 				22C88FD820205A460081C963 /* Assets.xcassets */,
 				22C88FDA20205A460081C963 /* LaunchScreen.storyboard */,
@@ -91,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				22C88FD320205A460081C963 /* HomeController.swift */,
-				22C88FEB20206EA90081C963 /* DownloadsViewController.swift */,
-				22C88FED20206EC40081C963 /* HistoryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +139,46 @@
 				22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		22FCF1E320218BE40056D84A /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				22FCF1E420218BF80056D84A /* Controllers */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		22FCF1E420218BF80056D84A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22C88FEB20206EA90081C963 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		22FCF1E520218C440056D84A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				22FCF1E620218C550056D84A /* Controllers */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		22FCF1E620218C550056D84A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22C88FED20206EC40081C963 /* HistoryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		22FCF1E720218C670056D84A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				22C88FE420205CE40081C963 /* Controllers */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
