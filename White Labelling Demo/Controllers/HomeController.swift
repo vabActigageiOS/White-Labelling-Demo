@@ -12,7 +12,6 @@ class HomeController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         view.backgroundColor = .white
         let featuredViewController = FeaturedViewController()
         featuredViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 0)
