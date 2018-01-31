@@ -12,11 +12,11 @@ class HomeController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         view.backgroundColor = .white
         let featuredViewController = FeaturedViewController()
         featuredViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 0)
-        let favouritesViewController = FavouritesViewController()
+        let layout = UICollectionViewFlowLayout()
+        let favouritesViewController = FavouritesViewController(collectionViewLayout: layout)
         favouritesViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
         let downloadsViewController = DownloadsViewController()
         downloadsViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 2)
