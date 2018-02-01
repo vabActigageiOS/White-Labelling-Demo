@@ -24,15 +24,26 @@ class FavouritesViewController: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellid, for: indexPath) as! FavouritesViewCell
+        if let colour = setUpColour(element: "Cells"){
+            cell.backgroundColor = colour
+        }
         return cell
     }
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerId, for: indexPath) as! FavouritesHeaderCell
+        if let colour = setUpColour(element: "Header"){
+            header.backgroundColor = colour
+        }
         return header
     }
-    
-    
+    func setUpColour(element: String) -> UIColor?{
+        if let settingDict = Settings.sharedInstance.readSettings(), let colours = settingDict["Favourites Colors"] as? [String: Any], let colour = colours[element] as? String{
+            return UIColor(hex: colour)
+        }else{
+            return nil
+        }
+    }
 
 }
 
