@@ -13,6 +13,9 @@ class HomeController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        viewControllers = setupMenuItems()
+    }
+    func setupMenuItems() -> [UIViewController]{
         let featuredViewController = FeaturedViewController()
         featuredViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 0)
         let layout = UICollectionViewFlowLayout()
@@ -22,9 +25,14 @@ class HomeController: UITabBarController {
         downloadsViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 2)
         let historyViewController = HistoryViewController()
         historyViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 3)
-        viewControllers = [featuredViewController, favouritesViewController, downloadsViewController, historyViewController ]
+        let recentViewController = RecentViewController()
+        recentViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .recents, tag: 3)
+        #if DEMO
+        return [featuredViewController, favouritesViewController, downloadsViewController, historyViewController]
+        #else
+        return [featuredViewController, favouritesViewController, downloadsViewController, recentViewController]
+        #endif
     }
-
 
 }
 
