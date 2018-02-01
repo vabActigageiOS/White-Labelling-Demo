@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Favourites Colors</key>
+	<dict>
+		<key>Header</key>
+		<string>008000</string>
+		<key>Cells</key>
+		<string>ffff00 </string>
+	</dict>
 	<key>Carousel Colors</key>
 	<array>
 		<string>008000</string>
