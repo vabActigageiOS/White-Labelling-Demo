@@ -18,15 +18,14 @@ class FavouritesHeaderCell: UICollectionViewCell {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     func addLabel(){
-        addSubview(label)
-        label.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
-        label.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
-        label.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        label.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.6).isActive = true
+        addSubview(titleLabel)
+        titleLabel.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        titleLabel.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        titleLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        titleLabel.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.6).isActive = true
     }
-    let label: UILabel = {
+    let titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Favourites"
         label.font = UIFont.boldSystemFont(ofSize: 20)

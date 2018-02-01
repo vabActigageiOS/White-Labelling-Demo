@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2205A87C2022F1E50004AAFD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2D1792022EF0200782EF2 /* Settings.swift */; };
 		22C88FD220205A460081C963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD120205A460081C963 /* AppDelegate.swift */; };
 		22C88FD420205A460081C963 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD320205A460081C963 /* HomeController.swift */; };
 		22C88FD920205A460081C963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FD820205A460081C963 /* Assets.xcassets */; };
@@ -18,6 +19,25 @@
 		22C88FF2202086EA0081C963 /* Feature1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FF1202086EA0081C963 /* Feature1ViewController.swift */; };
 		22C88FF4202086FF0081C963 /* Feature2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FF3202086FF0081C963 /* Feature2ViewController.swift */; };
 		22C88FF920209AED0081C963 /* FavouritesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FF820209AED0081C963 /* FavouritesViewCell.swift */; };
+		22CBA3832022F561002223F0 /* Full Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2D1762022EB6600782EF2 /* Full Settings.plist */; };
+		22CBA3852022F63A002223F0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBA3842022F63A002223F0 /* extensions.swift */; };
+		22CBA3862022F6B6002223F0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBA3842022F63A002223F0 /* extensions.swift */; };
+		22E2D15C2022DF3D00782EF2 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FE920206E8B0081C963 /* FavouritesViewController.swift */; };
+		22E2D15D2022DF3D00782EF2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FED20206EC40081C963 /* HistoryViewController.swift */; };
+		22E2D15E2022DF3D00782EF2 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FE720206E720081C963 /* FeaturedViewController.swift */; };
+		22E2D15F2022DF3D00782EF2 /* FavouritesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FF820209AED0081C963 /* FavouritesViewCell.swift */; };
+		22E2D1602022DF3D00782EF2 /* Feature1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FF1202086EA0081C963 /* Feature1ViewController.swift */; };
+		22E2D1612022DF3D00782EF2 /* FavouritesHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */; };
+		22E2D1622022DF3D00782EF2 /* Feature2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FF3202086FF0081C963 /* Feature2ViewController.swift */; };
+		22E2D1632022DF3D00782EF2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD320205A460081C963 /* HomeController.swift */; };
+		22E2D1642022DF3D00782EF2 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FEB20206EA90081C963 /* DownloadsViewController.swift */; };
+		22E2D1652022DF3D00782EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD120205A460081C963 /* AppDelegate.swift */; };
+		22E2D1682022DF3D00782EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FDA20205A460081C963 /* LaunchScreen.storyboard */; };
+		22E2D1692022DF3D00782EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FD820205A460081C963 /* Assets.xcassets */; };
+		22E2D16F2022DFFF00782EF2 /* White Labelling Full.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */; };
+		22E2D1702022E00400782EF2 /* White Labelling Demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FDD20205A460081C963 /* White Labelling Demo.plist */; };
+		22E2D1752022EB5700782EF2 /* Demo Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2D1742022EB5700782EF2 /* Demo Settings.plist */; };
+		22E2D17A2022EF0200782EF2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2D1792022EF0200782EF2 /* Settings.swift */; };
 		22FCF1E2202188900056D84A /* FavouritesHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +47,7 @@
 		22C88FD320205A460081C963 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		22C88FD820205A460081C963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C88FDB20205A460081C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		22C88FDD20205A460081C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C88FDD20205A460081C963 /* White Labelling Demo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "White Labelling Demo.plist"; sourceTree = "<group>"; };
 		22C88FE720206E720081C963 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		22C88FE920206E8B0081C963 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		22C88FEB20206EA90081C963 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +55,12 @@
 		22C88FF1202086EA0081C963 /* Feature1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1ViewController.swift; sourceTree = "<group>"; };
 		22C88FF3202086FF0081C963 /* Feature2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2ViewController.swift; sourceTree = "<group>"; };
 		22C88FF820209AED0081C963 /* FavouritesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewCell.swift; sourceTree = "<group>"; };
+		22CBA3842022F63A002223F0 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		22E2D16D2022DF3D00782EF2 /* White Labelling Full.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Labelling Full.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "White Labelling Full.plist"; path = "/Users/vaibhavsingh/Desktop/White Labelling Demo/White Labelling Demo/White Labelling Full.plist"; sourceTree = "<absolute>"; };
+		22E2D1742022EB5700782EF2 /* Demo Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo Settings.plist"; sourceTree = "<group>"; };
+		22E2D1762022EB6600782EF2 /* Full Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Full Settings.plist"; sourceTree = "<group>"; };
+		22E2D1792022EF0200782EF2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,9 +72,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22E2D1662022DF3D00782EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2205A87D2022F3CF0004AAFD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				22E2D1792022EF0200782EF2 /* Settings.swift */,
+				22CBA3842022F63A002223F0 /* extensions.swift */,
+			);
+			name = Helpers;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		22C88FC520205A460081C963 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				22C88FCE20205A460081C963 /* White Labelling Demo.app */,
+				22E2D16D2022DF3D00782EF2 /* White Labelling Full.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,7 +120,10 @@
 				22C88FE320205CD90081C963 /* Appdelegate */,
 				22C88FD820205A460081C963 /* Assets.xcassets */,
 				22C88FDA20205A460081C963 /* LaunchScreen.storyboard */,
-				22C88FDD20205A460081C963 /* Info.plist */,
+				22C88FDD20205A460081C963 /* White Labelling Demo.plist */,
+				22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */,
+				22E2D1742022EB5700782EF2 /* Demo Settings.plist */,
+				22E2D1762022EB6600782EF2 /* Full Settings.plist */,
 			);
 			path = "White Labelling Demo";
 			sourceTree = "<group>";
@@ -176,6 +223,7 @@
 		22FCF1E720218C670056D84A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2205A87D2022F3CF0004AAFD /* Helpers */,
 				22C88FE420205CE40081C963 /* Controllers */,
 			);
 			path = Main;
@@ -201,6 +249,23 @@
 			productReference = 22C88FCE20205A460081C963 /* White Labelling Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		22E2D15A2022DF3D00782EF2 /* White Labelling Full */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E2D16A2022DF3D00782EF2 /* Build configuration list for PBXNativeTarget "White Labelling Full" */;
+			buildPhases = (
+				22E2D15B2022DF3D00782EF2 /* Sources */,
+				22E2D1662022DF3D00782EF2 /* Frameworks */,
+				22E2D1672022DF3D00782EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "White Labelling Full";
+			productName = "White Labelling Demo";
+			productReference = 22E2D16D2022DF3D00782EF2 /* White Labelling Full.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,6 +278,9 @@
 				TargetAttributes = {
 					22C88FCD20205A460081C963 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					22E2D15A2022DF3D00782EF2 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -231,6 +299,7 @@
 			projectRoot = "";
 			targets = (
 				22C88FCD20205A460081C963 /* White Labelling Demo */,
+				22E2D15A2022DF3D00782EF2 /* White Labelling Full */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +311,19 @@
 			files = (
 				22C88FDC20205A460081C963 /* LaunchScreen.storyboard in Resources */,
 				22C88FD920205A460081C963 /* Assets.xcassets in Resources */,
+				22E2D1702022E00400782EF2 /* White Labelling Demo.plist in Resources */,
+				22E2D1752022EB5700782EF2 /* Demo Settings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E2D1672022DF3D00782EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E2D1682022DF3D00782EF2 /* LaunchScreen.storyboard in Resources */,
+				22CBA3832022F561002223F0 /* Full Settings.plist in Resources */,
+				22E2D16F2022DFFF00782EF2 /* White Labelling Full.plist in Resources */,
+				22E2D1692022DF3D00782EF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E2D17A2022EF0200782EF2 /* Settings.swift in Sources */,
 				22C88FEA20206E8B0081C963 /* FavouritesViewController.swift in Sources */,
 				22C88FEE20206EC40081C963 /* HistoryViewController.swift in Sources */,
 				22C88FE820206E720081C963 /* FeaturedViewController.swift in Sources */,
@@ -262,6 +345,26 @@
 				22C88FD420205A460081C963 /* HomeController.swift in Sources */,
 				22C88FEC20206EA90081C963 /* DownloadsViewController.swift in Sources */,
 				22C88FD220205A460081C963 /* AppDelegate.swift in Sources */,
+				22CBA3852022F63A002223F0 /* extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E2D15B2022DF3D00782EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E2D15C2022DF3D00782EF2 /* FavouritesViewController.swift in Sources */,
+				22E2D15D2022DF3D00782EF2 /* HistoryViewController.swift in Sources */,
+				22E2D15E2022DF3D00782EF2 /* FeaturedViewController.swift in Sources */,
+				22E2D15F2022DF3D00782EF2 /* FavouritesViewCell.swift in Sources */,
+				22E2D1602022DF3D00782EF2 /* Feature1ViewController.swift in Sources */,
+				22E2D1612022DF3D00782EF2 /* FavouritesHeaderCell.swift in Sources */,
+				22E2D1622022DF3D00782EF2 /* Feature2ViewController.swift in Sources */,
+				22E2D1632022DF3D00782EF2 /* HomeController.swift in Sources */,
+				22E2D1642022DF3D00782EF2 /* DownloadsViewController.swift in Sources */,
+				2205A87C2022F1E50004AAFD /* Settings.swift in Sources */,
+				22E2D1652022DF3D00782EF2 /* AppDelegate.swift in Sources */,
+				22CBA3862022F6B6002223F0 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +495,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
-				INFOPLIST_FILE = "White Labelling Demo/Info.plist";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/White Labelling Demo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEMO";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vabappd.White-Labelling-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -407,7 +515,39 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
-				INFOPLIST_FILE = "White Labelling Demo/Info.plist";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/White Labelling Demo.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEMO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vabappd.White-Labelling-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22E2D16B2022DF3D00782EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMFR7TLPHS;
+				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/White Labelling Full.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vabappd.White-Labelling-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22E2D16C2022DF3D00782EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMFR7TLPHS;
+				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/White Labelling Full.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vabappd.White-Labelling-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +573,15 @@
 			buildConfigurations = (
 				22C88FE120205A460081C963 /* Debug */,
 				22C88FE220205A460081C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E2D16A2022DF3D00782EF2 /* Build configuration list for PBXNativeTarget "White Labelling Full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E2D16B2022DF3D00782EF2 /* Debug */,
+				22E2D16C2022DF3D00782EF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
