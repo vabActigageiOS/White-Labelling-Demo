@@ -22,6 +22,8 @@
 		22CBA3832022F561002223F0 /* Full Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2D1762022EB6600782EF2 /* Full Settings.plist */; };
 		22CBA3852022F63A002223F0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBA3842022F63A002223F0 /* extensions.swift */; };
 		22CBA3862022F6B6002223F0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBA3842022F63A002223F0 /* extensions.swift */; };
+		22CBA38A202307E3002223F0 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBA389202307E3002223F0 /* RecentViewController.swift */; };
+		22CBA38B20230836002223F0 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBA389202307E3002223F0 /* RecentViewController.swift */; };
 		22E2D15C2022DF3D00782EF2 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FE920206E8B0081C963 /* FavouritesViewController.swift */; };
 		22E2D15D2022DF3D00782EF2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FED20206EC40081C963 /* HistoryViewController.swift */; };
 		22E2D15E2022DF3D00782EF2 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FE720206E720081C963 /* FeaturedViewController.swift */; };
@@ -56,6 +58,7 @@
 		22C88FF3202086FF0081C963 /* Feature2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2ViewController.swift; sourceTree = "<group>"; };
 		22C88FF820209AED0081C963 /* FavouritesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewCell.swift; sourceTree = "<group>"; };
 		22CBA3842022F63A002223F0 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		22CBA389202307E3002223F0 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 		22E2D16D2022DF3D00782EF2 /* White Labelling Full.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Labelling Full.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "White Labelling Full.plist"; path = "/Users/vaibhavsingh/Desktop/White Labelling Demo/White Labelling Demo/White Labelling Full.plist"; sourceTree = "<absolute>"; };
 		22E2D1742022EB5700782EF2 /* Demo Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo Settings.plist"; sourceTree = "<group>"; };
@@ -113,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				22FCF1E720218C670056D84A /* Main */,
+				22CBA387202307A8002223F0 /* Recent */,
 				22FCF1E520218C440056D84A /* History */,
 				22FCF1E320218BE40056D84A /* Downloads */,
 				22C88FF5202099D60081C963 /* Favourites */,
@@ -186,6 +190,22 @@
 				22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		22CBA387202307A8002223F0 /* Recent */ = {
+			isa = PBXGroup;
+			children = (
+				22CBA388202307C0002223F0 /* Controllers */,
+			);
+			path = Recent;
+			sourceTree = "<group>";
+		};
+		22CBA388202307C0002223F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22CBA389202307E3002223F0 /* RecentViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		22FCF1E320218BE40056D84A /* Downloads */ = {
@@ -339,6 +359,7 @@
 				22C88FEE20206EC40081C963 /* HistoryViewController.swift in Sources */,
 				22C88FE820206E720081C963 /* FeaturedViewController.swift in Sources */,
 				22C88FF920209AED0081C963 /* FavouritesViewCell.swift in Sources */,
+				22CBA38A202307E3002223F0 /* RecentViewController.swift in Sources */,
 				22C88FF2202086EA0081C963 /* Feature1ViewController.swift in Sources */,
 				22FCF1E2202188900056D84A /* FavouritesHeaderCell.swift in Sources */,
 				22C88FF4202086FF0081C963 /* Feature2ViewController.swift in Sources */,
@@ -358,6 +379,7 @@
 				22E2D15E2022DF3D00782EF2 /* FeaturedViewController.swift in Sources */,
 				22E2D15F2022DF3D00782EF2 /* FavouritesViewCell.swift in Sources */,
 				22E2D1602022DF3D00782EF2 /* Feature1ViewController.swift in Sources */,
+				22CBA38B20230836002223F0 /* RecentViewController.swift in Sources */,
 				22E2D1612022DF3D00782EF2 /* FavouritesHeaderCell.swift in Sources */,
 				22E2D1622022DF3D00782EF2 /* Feature2ViewController.swift in Sources */,
 				22E2D1632022DF3D00782EF2 /* HomeController.swift in Sources */,
