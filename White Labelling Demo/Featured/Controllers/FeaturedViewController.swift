@@ -20,10 +20,17 @@ class FeaturedViewController: UIPageViewController, UIPageViewControllerDataSour
         let feature2 = Feature2ViewController()
         pages.append(feature1)
         pages.append(feature2)
+        setBackgroundColour(pages: pages)
         setViewControllers([pages[initialPage]], direction: .forward, animated: true, completion: nil)
         setupPageControl()
     }
-    
+    func setBackgroundColour(pages: [UIViewController]){
+        if let settingDict = Settings.sharedInstance.readSettings(), let colours = settingDict["Carousel Colors"] as? [String]{
+            for (index,_) in pages.enumerated(){
+                pages[index].view.backgroundColor = UIColor(hex: colours[index])
+            }
+        }
+    }
     func setupPageControl(){
         self.pageControl.frame = CGRect()
         self.pageControl.currentPageIndicatorTintColor = UIColor.black

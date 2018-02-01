@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Carousel Colors</key>
+	<array>
+		<string>008000</string>
+		<string>ffff00 </string>
+	</array>
 	<key>titleLabelColor</key>
 	<string>008000</string>
 </dict>
