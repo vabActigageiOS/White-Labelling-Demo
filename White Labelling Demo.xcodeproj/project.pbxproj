@@ -35,11 +35,11 @@
 		22E2D1642022DF3D00782EF2 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FEB20206EA90081C963 /* DownloadsViewController.swift */; };
 		22E2D1652022DF3D00782EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD120205A460081C963 /* AppDelegate.swift */; };
 		22E2D1682022DF3D00782EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FDA20205A460081C963 /* LaunchScreen.storyboard */; };
-		22E2D1692022DF3D00782EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FD820205A460081C963 /* Assets.xcassets */; };
 		22E2D16F2022DFFF00782EF2 /* White Labelling Full.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */; };
 		22E2D1702022E00400782EF2 /* White Labelling Demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FDD20205A460081C963 /* White Labelling Demo.plist */; };
 		22E2D1752022EB5700782EF2 /* Demo Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2D1742022EB5700782EF2 /* Demo Settings.plist */; };
 		22E2D17A2022EF0200782EF2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2D1792022EF0200782EF2 /* Settings.swift */; };
+		22EC3DC42024304100823340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EC3DC22024300F00823340 /* Assets.xcassets */; };
 		22FCF1E2202188900056D84A /* FavouritesHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +64,7 @@
 		22E2D1742022EB5700782EF2 /* Demo Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo Settings.plist"; sourceTree = "<group>"; };
 		22E2D1762022EB6600782EF2 /* Full Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Full Settings.plist"; sourceTree = "<group>"; };
 		22E2D1792022EF0200782EF2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		22EC3DC22024300F00823340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +116,7 @@
 		22C88FD020205A460081C963 /* White Labelling Demo */ = {
 			isa = PBXGroup;
 			children = (
+				22EC3DBF20242FE800823340 /* Supporting files */,
 				22FCF1E720218C670056D84A /* Main */,
 				22CBA387202307A8002223F0 /* Recent */,
 				22FCF1E520218C440056D84A /* History */,
@@ -122,7 +124,6 @@
 				22C88FF5202099D60081C963 /* Favourites */,
 				22C88FEF202085C50081C963 /* Featured */,
 				22C88FE320205CD90081C963 /* Appdelegate */,
-				22C88FD820205A460081C963 /* Assets.xcassets */,
 				22C88FDA20205A460081C963 /* LaunchScreen.storyboard */,
 				22C88FDD20205A460081C963 /* White Labelling Demo.plist */,
 				22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */,
@@ -206,6 +207,31 @@
 				22CBA389202307E3002223F0 /* RecentViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		22EC3DBF20242FE800823340 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				22EC3DC120242FFA00823340 /* Full */,
+				22EC3DC020242FF400823340 /* Demo */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		22EC3DC020242FF400823340 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				22C88FD820205A460081C963 /* Assets.xcassets */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		22EC3DC120242FFA00823340 /* Full */ = {
+			isa = PBXGroup;
+			children = (
+				22EC3DC22024300F00823340 /* Assets.xcassets */,
+			);
+			path = Full;
 			sourceTree = "<group>";
 		};
 		22FCF1E320218BE40056D84A /* Downloads */ = {
@@ -343,7 +369,7 @@
 				22E2D1682022DF3D00782EF2 /* LaunchScreen.storyboard in Resources */,
 				22CBA3832022F561002223F0 /* Full Settings.plist in Resources */,
 				22E2D16F2022DFFF00782EF2 /* White Labelling Full.plist in Resources */,
-				22E2D1692022DF3D00782EF2 /* Assets.xcassets in Resources */,
+				22EC3DC42024304100823340 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
