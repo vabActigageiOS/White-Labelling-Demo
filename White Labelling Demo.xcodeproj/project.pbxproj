@@ -10,7 +10,7 @@
 		2205A87C2022F1E50004AAFD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2D1792022EF0200782EF2 /* Settings.swift */; };
 		22C88FD220205A460081C963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD120205A460081C963 /* AppDelegate.swift */; };
 		22C88FD420205A460081C963 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FD320205A460081C963 /* HomeController.swift */; };
-		22C88FD920205A460081C963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FD820205A460081C963 /* Assets.xcassets */; };
+		22C88FD920205A460081C963 /* AssetsDemo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FD820205A460081C963 /* AssetsDemo.xcassets */; };
 		22C88FDC20205A460081C963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FDA20205A460081C963 /* LaunchScreen.storyboard */; };
 		22C88FE820206E720081C963 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FE720206E720081C963 /* FeaturedViewController.swift */; };
 		22C88FEA20206E8B0081C963 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C88FE920206E8B0081C963 /* FavouritesViewController.swift */; };
@@ -39,7 +39,7 @@
 		22E2D1702022E00400782EF2 /* White Labelling Demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22C88FDD20205A460081C963 /* White Labelling Demo.plist */; };
 		22E2D1752022EB5700782EF2 /* Demo Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2D1742022EB5700782EF2 /* Demo Settings.plist */; };
 		22E2D17A2022EF0200782EF2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2D1792022EF0200782EF2 /* Settings.swift */; };
-		22EC3DC42024304100823340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EC3DC22024300F00823340 /* Assets.xcassets */; };
+		22EC3DC42024304100823340 /* AssetsFull.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EC3DC22024300F00823340 /* AssetsFull.xcassets */; };
 		22FCF1E2202188900056D84A /* FavouritesHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,7 @@
 		22C88FCE20205A460081C963 /* White Labelling Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Labelling Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C88FD120205A460081C963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22C88FD320205A460081C963 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		22C88FD820205A460081C963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C88FD820205A460081C963 /* AssetsDemo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsDemo.xcassets; sourceTree = "<group>"; };
 		22C88FDB20205A460081C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C88FDD20205A460081C963 /* White Labelling Demo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "White Labelling Demo.plist"; sourceTree = "<group>"; };
 		22C88FE720206E720081C963 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		22E2D1742022EB5700782EF2 /* Demo Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo Settings.plist"; sourceTree = "<group>"; };
 		22E2D1762022EB6600782EF2 /* Full Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Full Settings.plist"; sourceTree = "<group>"; };
 		22E2D1792022EF0200782EF2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		22EC3DC22024300F00823340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22EC3DC22024300F00823340 /* AssetsFull.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsFull.xcassets; sourceTree = "<group>"; };
 		22FCF1E1202188900056D84A /* FavouritesHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,7 +217,7 @@
 		22EC3DC020242FF400823340 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				22C88FD820205A460081C963 /* Assets.xcassets */,
+				22C88FD820205A460081C963 /* AssetsDemo.xcassets */,
 				22C88FDD20205A460081C963 /* White Labelling Demo.plist */,
 				22E2D1742022EB5700782EF2 /* Demo Settings.plist */,
 			);
@@ -227,7 +227,7 @@
 		22EC3DC120242FFA00823340 /* Full */ = {
 			isa = PBXGroup;
 			children = (
-				22EC3DC22024300F00823340 /* Assets.xcassets */,
+				22EC3DC22024300F00823340 /* AssetsFull.xcassets */,
 				22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */,
 				22E2D1762022EB6600782EF2 /* Full Settings.plist */,
 			);
@@ -356,7 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C88FDC20205A460081C963 /* LaunchScreen.storyboard in Resources */,
-				22C88FD920205A460081C963 /* Assets.xcassets in Resources */,
+				22C88FD920205A460081C963 /* AssetsDemo.xcassets in Resources */,
 				22E2D1702022E00400782EF2 /* White Labelling Demo.plist in Resources */,
 				22E2D1752022EB5700782EF2 /* Demo Settings.plist in Resources */,
 			);
@@ -369,7 +369,7 @@
 				22E2D1682022DF3D00782EF2 /* LaunchScreen.storyboard in Resources */,
 				22CBA3832022F561002223F0 /* Full Settings.plist in Resources */,
 				22E2D16F2022DFFF00782EF2 /* White Labelling Full.plist in Resources */,
-				22EC3DC42024304100823340 /* Assets.xcassets in Resources */,
+				22EC3DC42024304100823340 /* AssetsFull.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,7 +540,8 @@
 		22C88FE120205A460081C963 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Demo";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage Demo";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -560,7 +561,8 @@
 		22C88FE220205A460081C963 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Demo";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage Demo";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -577,7 +579,8 @@
 		22E2D16B2022DF3D00782EF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Full";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage Full";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
 				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/Supporting files/Full/White Labelling Full.plist";
@@ -592,7 +595,8 @@
 		22E2D16C2022DF3D00782EF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Full";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage Full";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
 				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/Supporting files/Full/White Labelling Full.plist";
