@@ -16,7 +16,7 @@ class RecentViewController: UIViewController {
         addLabel()
     }
     func setLabelColor(){
-        if let settingsDict = Settings.sharedInstance.readSettings(), let titleLabelColor = settingsDict["titleLabelColor"] as? String{
+        if let settingsDict = Settings.sharedInstance.pListData, let titleLabelColor = settingsDict["titleLabelColor"] as? String{
             titleLabel.backgroundColor = UIColor(hex: titleLabelColor)
         }
     }

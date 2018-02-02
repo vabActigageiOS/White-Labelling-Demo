@@ -8,7 +8,13 @@
 
 import UIKit
 class Settings: NSObject{
-    private override init() {}
+    private override init() {
+        super.init()
+        if let plistData = readSettings(){
+            pListData = plistData
+        }
+    }
+    var pListData: [String:Any]?
     static let sharedInstance = Settings()
     func readSettings() -> [String:Any]?{
         var format = PropertyListSerialization.PropertyListFormat.xml

@@ -25,7 +25,7 @@ class FeaturedViewController: UIPageViewController, UIPageViewControllerDataSour
         setupPageControl()
     }
     func setBackgroundColour(pages: [UIViewController]){
-        if let settingDict = Settings.sharedInstance.readSettings(), let colours = settingDict["Carousel Colors"] as? [String]{
+        if let settingDict = Settings.sharedInstance.pListData, let colours = settingDict["Carousel Colors"] as? [String]{
             for (index,_) in pages.enumerated(){
                 pages[index].view.backgroundColor = UIColor(hex: colours[index])
             }

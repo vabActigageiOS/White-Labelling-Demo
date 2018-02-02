@@ -23,7 +23,7 @@ class DownloadsViewController: UIViewController {
         titleLabel.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor).isActive = true
     }
     func setLabelColor(){
-        if let settingsDict = Settings.sharedInstance.readSettings(), let titleLabelColor = settingsDict["titleLabelColor"] as? String{
+        if let settingsDict = Settings.sharedInstance.pListData, let titleLabelColor = settingsDict["titleLabelColor"] as? String{
             titleLabel.backgroundColor = UIColor(hex: titleLabelColor)
         }
     }
