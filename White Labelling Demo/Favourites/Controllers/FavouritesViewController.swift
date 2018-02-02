@@ -38,7 +38,7 @@ class FavouritesViewController: UICollectionViewController {
         return header
     }
     func setUpColour(element: String) -> UIColor?{
-        if let settingDict = Settings.sharedInstance.readSettings(), let colours = settingDict["Favourites Colors"] as? [String: Any], let colour = colours[element] as? String{
+        if let settingDict = Settings.sharedInstance.pListData, let colours = settingDict["Favourites Colors"] as? [String: Any], let colour = colours[element] as? String{
             return UIColor(hex: colour)
         }else{
             return nil
