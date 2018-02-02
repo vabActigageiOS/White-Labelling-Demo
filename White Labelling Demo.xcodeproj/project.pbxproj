@@ -60,7 +60,7 @@
 		22CBA3842022F63A002223F0 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		22CBA389202307E3002223F0 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 		22E2D16D2022DF3D00782EF2 /* White Labelling Full.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Labelling Full.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "White Labelling Full.plist"; path = "/Users/vaibhavsingh/Desktop/White Labelling Demo/White Labelling Demo/White Labelling Full.plist"; sourceTree = "<absolute>"; };
+		22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "White Labelling Full.plist"; path = "/Users/vaibhavsingh/Desktop/White Labelling Demo/White Labelling Demo/Supporting files/Full/White Labelling Full.plist"; sourceTree = "<absolute>"; };
 		22E2D1742022EB5700782EF2 /* Demo Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo Settings.plist"; sourceTree = "<group>"; };
 		22E2D1762022EB6600782EF2 /* Full Settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Full Settings.plist"; sourceTree = "<group>"; };
 		22E2D1792022EF0200782EF2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -124,11 +124,6 @@
 				22C88FF5202099D60081C963 /* Favourites */,
 				22C88FEF202085C50081C963 /* Featured */,
 				22C88FE320205CD90081C963 /* Appdelegate */,
-				22C88FDA20205A460081C963 /* LaunchScreen.storyboard */,
-				22C88FDD20205A460081C963 /* White Labelling Demo.plist */,
-				22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */,
-				22E2D1742022EB5700782EF2 /* Demo Settings.plist */,
-				22E2D1762022EB6600782EF2 /* Full Settings.plist */,
 			);
 			path = "White Labelling Demo";
 			sourceTree = "<group>";
@@ -212,6 +207,7 @@
 		22EC3DBF20242FE800823340 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				22C88FDA20205A460081C963 /* LaunchScreen.storyboard */,
 				22EC3DC120242FFA00823340 /* Full */,
 				22EC3DC020242FF400823340 /* Demo */,
 			);
@@ -222,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				22C88FD820205A460081C963 /* Assets.xcassets */,
+				22C88FDD20205A460081C963 /* White Labelling Demo.plist */,
+				22E2D1742022EB5700782EF2 /* Demo Settings.plist */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -230,6 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				22EC3DC22024300F00823340 /* Assets.xcassets */,
+				22E2D16E2022DF3D00782EF2 /* White Labelling Full.plist */,
+				22E2D1762022EB6600782EF2 /* Full Settings.plist */,
 			);
 			path = Full;
 			sourceTree = "<group>";
@@ -547,7 +547,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/White Labelling Demo.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/Supporting files/Demo/White Labelling Demo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDEMO";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vabappd.White-Labelling-Demo";
@@ -564,7 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
-				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/White Labelling Demo.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/Supporting files/Demo/White Labelling Demo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDEMO";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vabappd.White-Labelling-Demo";
@@ -580,7 +580,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
-				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/White Labelling Full.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/Supporting files/Full/White Labelling Full.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vabappd.White-Labelling-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -595,7 +595,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMFR7TLPHS;
-				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/White Labelling Full.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/White Labelling Demo/Supporting files/Full/White Labelling Full.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vabappd.White-Labelling-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
